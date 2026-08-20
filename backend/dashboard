@@ -1,0 +1,4 @@
+@app.route("/dashboard", methods = ["GET"])
+def fetch_dashboard():
+ data = request.get_json()
+ 
