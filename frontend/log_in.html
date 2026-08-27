@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>InfraRisk | Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- TOP NAVIGATION -->
+
+    <header class="topbar">
+
+        <div class="brand-area">
+
+
+            <div class="brand-name">
+                InfraRisk
+            </div>
+
+        </div>
+
+
+        <div class="officer-area">
+
+            <span class="officer-name">
+                Municipal Officer
+            </span>
+
+            <button
+                class="logout-button"
+                type="button"
+            >
+                Logout
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="sidebar-title">
+            InfraRisk
+        </div>
+
+        <nav>
+
+            <a
+                href="dashboard.html"
+                class="sidebar-link active"
+            >
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+
+            <a
+                href="assets.html"
+                class="sidebar-link"
+            >
+                <span>▣</span>
+                Assets
+            </a>
+
+
+            <a
+                href="repair-planning.html"
+                class="sidebar-link"
+            >
+                <span>⚒</span>
+                Repair Planning
+            </a>
+
+
+            <a
+                href="reports.html"
+                class="sidebar-link"
+            >
+                <span>▤</span>
+                Reports
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main
+        class="dashboard-content"
+        id="mainContent"
+    >
+
+        <div class="page-heading">
+
+            <h1>Dashboard</h1>
+
+            <p>
+                Infrastructure Health — 2026 Annual Overview
+            </p>
+
+        </div>
+
+
+
+        <!-- INFRASTRUCTURE HEALTH -->
+
+        <section>
+
+            <h2 class="section-title">
+                Infrastructure Health
+            </h2>
+
+
+            <div class="health-cards">
+
+
+                <!-- ROAD -->
+
+                <div class="health-card road-card">
+
+                    <div class="card-top">
+
+                        <span class="card-label">
+                            ROAD NETWORK
+                        </span>
+
+                        <span class="card-status healthy">
+                            Good
+                        </span>
+
+                    </div>
+
+
+                    <div class="health-score">
+                        72<span>/100</span>
+                    </div>
+
+
+                    <p>
+                        Overall road network condition
+                    </p>
+
+                </div>
+
+
+
+                <!-- DRAINAGE -->
+
+                <div class="health-card drainage-card">
+
+                    <div class="card-top">
+
+                        <span class="card-label">
+                            DRAINAGE NETWORK
+                        </span>
+
+                        <span class="card-status warning">
+                            Moderate
+                        </span>
+
+                    </div>
+
+
+                    <div class="health-score">
+                        68<span>/100</span>
+                    </div>
+
+
+                    <p>
+                        Overall drainage condition
+                    </p>
+
+                </div>
+
+
+
+                <!-- BRIDGES -->
+
+                <div class="health-card bridge-card">
+
+                    <div class="card-top">
+
+                        <span class="card-label">
+                            BRIDGE NETWORK
+                        </span>
+
+                        <span class="card-status healthy">
+                            Good
+                        </span>
+
+                    </div>
+
+
+                    <div class="health-score">
+                        81<span>/100</span>
+                    </div>
+
+
+                    <p>
+                        Overall bridge condition
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- OVERALL HEALTH -->
+
+        <section class="overall-section">
+
+            <div>
+
+                <h2 class="section-title">
+                    Overall Infrastructure Health
+                </h2>
+
+                <p class="section-description">
+                    Combined condition of monitored municipal infrastructure.
+                </p>
+
+            </div>
+
+
+            <div class="overall-score">
+
+                <strong>
+                    72
+                </strong>
+
+                <span>
+                    /100
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MAINTENANCE STATUS -->
+
+        <section>
+
+            <h2 class="section-title">
+                Maintenance Status
+            </h2>
+
+
+            <div class="maintenance-grid">
+
+
+                <div class="maintenance-card">
+
+                    <span>
+                        Planned Repairs
+                    </span>
+
+                    <strong>
+                        80
+                    </strong>
+
+                    <small>
+                        This year
+                    </small>
+
+                </div>
+
+
+
+                <div class="maintenance-card">
+
+                    <span>
+                        Emergency Repairs
+                    </span>
+
+                    <strong>
+                        20
+                    </strong>
+
+                    <small>
+                        This year
+                    </small>
+
+                </div>
+
+
+
+                <div class="maintenance-card">
+
+                    <span>
+                        Emergency Ratio
+                    </span>
+
+                    <strong>
+                        20%
+                    </strong>
+
+                    <small>
+                        Of total repairs
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LAST UPDATED -->
+
+        <div class="last-updated">
+
+            Last updated:
+            <strong>
+                August 2026
+            </strong>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- LOGOUT POPUP -->
+
+    <div
+        class="logout-overlay"
+        id="logoutOverlay"
+    >
+
+        <div class="logout-modal">
+
+            <button
+                class="close-modal"
+                id="closeModal"
+                type="button"
+            >
+                ×
+            </button>
+
+
+            <h2>
+                Are you sure?
+            </h2>
+
+
+            <p>
+                Are you sure you want to log out of InfraRisk?
+            </p>
+
+
+            <div class="modal-buttons">
+
+                <button
+                    class="cancel-button"
+                    id="cancelButton"
+                    type="button"
+                >
+                    No
+                </button>
+
+
+                <button
+                    class="confirm-logout"
+                    id="confirmLogout"
+                    type="button"
+                >
+                    Yes, Logout
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+
+        /* =========================
+           HAMBURGER MENU
+        ========================= */
+
+        const menuButton =
+            document.getElementById("menuButton");
+
+        const sidebar =
+            document.getElementById("sidebar");
+
+        const mainContent =
+            document.getElementById("mainContent");
+
+
+        menuButton.addEventListener(
+            "click",
+            function () {
+
+                sidebar.classList.toggle("collapsed");
+
+                mainContent.classList.toggle("sidebar-collapsed");
+
+            }
+        );
+
+
+
+        /* =========================
+           LOGOUT
+        ========================= */
+
+        const logoutButton =
+            document.querySelector(".logout-button");
+
+        const logoutOverlay =
+            document.getElementById("logoutOverlay");
+
+        const closeModal =
+            document.getElementById("closeModal");
+
+        const cancelButton =
+            document.getElementById("cancelButton");
+
+        const confirmLogout =
+            document.getElementById("confirmLogout");
+
+
+        logoutButton.addEventListener(
+            "click",
+            function () {
+
+                logoutOverlay.classList.add("show");
+
+            }
+        );
+
+
+        closeModal.addEventListener(
+            "click",
+            function () {
+
+                logoutOverlay.classList.remove("show");
+
+            }
+        );
+
+
+        cancelButton.addEventListener(
+            "click",
+            function () {
+
+                logoutOverlay.classList.remove("show");
+
+            }
+        );
+
+
+        confirmLogout.addEventListener(
+            "click",
+            function () {
+
+                window.location.href = "login.html";
+
+            }
+        );
+
+
+
+        logoutOverlay.addEventListener(
+            "click",
+            function (event) {
+
+                if (
+                    event.target === logoutOverlay
+                ) {
+
+                    logoutOverlay.classList.remove("show");
+
+                }
+
+            }
+        );
+
+
+    </script>
+
+
+</body>
+
+</html>
