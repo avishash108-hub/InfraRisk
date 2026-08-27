@@ -1,0 +1,121 @@
+Asset_ID,Asset_Name,Asset_Type,Risk_Score,Condition_Score,Age_Years,Repair_Type,Estimated_Repair_Cost,Expected_Risk_Reduction_Percent,Priority,Available_Budget,Budget_Allocated,Remaining_Budget,Budget_Utilization_Percent
+R001,Road 1,Road,86,25,12,Pothole Repair,195000,25,Critical,8000000,195000,58000,2.44
+B001,Bridge 1,Bridge,77,27,10,Structural Repair,1963000,31,High,8000000,0,58000,0.0
+W001,Water Infrastructure 1,Water Infrastructure,42,55,27,Valve Replacement,674000,11,Low,8000000,0,58000,0.0
+R002,Road 2,Road,94,25,11,Strengthening,532000,29,Critical,8000000,532000,5961000,6.65
+B002,Bridge 2,Bridge,56,51,5,Strengthening,1651000,23,Moderate,8000000,0,58000,0.0
+W002,Water Infrastructure 2,Water Infrastructure,50,52,22,Water Main Repair,567000,18,Moderate,8000000,0,58000,0.0
+B003,Bridge 3,Bridge,68,32,11,Protective Coating,2562000,23,Moderate,8000000,0,58000,0.0
+W003,Water Infrastructure 3,Water Infrastructure,73,27,6,Leakage Repair,927000,21,High,8000000,0,58000,0.0
+R003,Road 3,Road,55,52,5,Drainage Improvement,789000,16,Moderate,8000000,0,58000,0.0
+B004,Bridge 4,Bridge,76,31,30,Protective Coating,1767000,22,High,8000000,0,58000,0.0
+R004,Road 4,Road,79,26,4,Reconstruction,478000,22,High,8000000,0,58000,0.0
+W004,Water Infrastructure 4,Water Infrastructure,75,25,3,Water Main Repair,245000,21,High,8000000,0,58000,0.0
+W005,Water Infrastructure 5,Water Infrastructure,80,25,20,Water Main Repair,973000,35,High,8000000,0,58000,0.0
+R005,Road 5,Road,86,25,7,Drainage Improvement,465000,34,Critical,8000000,0,253000,0.0
+B005,Bridge 5,Bridge,63,33,31,Protective Coating,1493000,27,Moderate,8000000,0,58000,0.0
+B006,Bridge 6,Bridge,67,34,9,Deck Repair,2400000,18,Moderate,8000000,0,58000,0.0
+W006,Water Infrastructure 6,Water Infrastructure,30,63,21,Water Main Repair,459000,10,Low,8000000,0,58000,0.0
+R006,Road 6,Road,54,54,7,Resurfacing,521000,23,Moderate,8000000,0,58000,0.0
+B007,Bridge 7,Bridge,43,59,8,Strengthening,2999000,17,Low,8000000,0,58000,0.0
+W007,Water Infrastructure 7,Water Infrastructure,43,55,30,Leakage Repair,1428000,12,Low,8000000,0,58000,0.0
+R007,Road 7,Road,29,79,5,Pothole Repair,590000,12,Low,8000000,0,58000,0.0
+W008,Water Infrastructure 8,Water Infrastructure,69,26,8,Pipe Replacement,1477000,26,Moderate,8000000,0,58000,0.0
+R008,Road 8,Road,58,35,8,Resurfacing,582000,25,Moderate,8000000,0,58000,0.0
+B008,Bridge 8,Bridge,62,33,16,Strengthening,2651000,26,Moderate,8000000,0,58000,0.0
+W009,Water Infrastructure 9,Water Infrastructure,67,27,28,Pipe Replacement,840000,23,Moderate,8000000,0,58000,0.0
+R009,Road 9,Road,69,36,5,Strengthening,568000,31,Moderate,8000000,0,58000,0.0
+B009,Bridge 9,Bridge,44,49,5,Structural Repair,2773000,13,Low,8000000,0,58000,0.0
+R010,Road 10,Road,84,25,3,Strengthening,280000,36,High,8000000,0,58000,0.0
+W010,Water Infrastructure 10,Water Infrastructure,37,63,17,Water Main Repair,740000,15,Low,8000000,0,58000,0.0
+B010,Bridge 10,Bridge,45,55,17,Deck Repair,1712000,19,Moderate,8000000,0,58000,0.0
+R011,Road 11,Road,47,60,14,Drainage Improvement,182000,18,Moderate,8000000,0,58000,0.0
+R012,Road 12,Road,46,52,18,Drainage Improvement,213000,15,Moderate,8000000,0,58000,0.0
+R013,Road 13,Road,32,72,13,Resurfacing,429000,10,Low,8000000,0,58000,0.0
+R014,Road 14,Road,35,66,17,Reconstruction,411000,13,Low,8000000,0,58000,0.0
+R015,Road 15,Road,27,74,9,Reconstruction,687000,10,Low,8000000,0,58000,0.0
+R016,Road 16,Road,40,52,21,Resurfacing,501000,17,Low,8000000,0,58000,0.0
+R017,Road 17,Road,62,33,4,Drainage Improvement,553000,22,Moderate,8000000,0,58000,0.0
+R018,Road 18,Road,83,25,8,Strengthening,879000,23,High,8000000,0,58000,0.0
+R019,Road 19,Road,49,50,15,Pothole Repair,884000,16,Moderate,8000000,0,58000,0.0
+R020,Road 20,Road,74,25,14,Resurfacing,307000,21,High,8000000,0,58000,0.0
+R021,Road 21,Road,35,66,10,Pothole Repair,593000,14,Low,8000000,0,58000,0.0
+R022,Road 22,Road,86,25,10,Drainage Improvement,497000,38,Critical,8000000,497000,253000,6.21
+R023,Road 23,Road,28,79,8,Strengthening,667000,10,Low,8000000,0,58000,0.0
+R024,Road 24,Road,80,25,9,Drainage Improvement,273000,33,High,8000000,0,58000,0.0
+R025,Road 25,Road,67,26,10,Resurfacing,600000,26,Moderate,8000000,0,58000,0.0
+R026,Road 26,Road,35,64,16,Strengthening,433000,10,Low,8000000,0,58000,0.0
+R027,Road 27,Road,38,66,5,Strengthening,329000,11,Low,8000000,0,58000,0.0
+R028,Road 28,Road,94,25,8,Reconstruction,171000,37,Critical,8000000,171000,7225000,2.14
+R029,Road 29,Road,91,25,22,Resurfacing,347000,30,Critical,8000000,347000,3761000,4.34
+R030,Road 30,Road,94,25,6,Drainage Improvement,732000,36,Critical,8000000,732000,6493000,9.15
+R031,Road 31,Road,81,25,13,Drainage Improvement,333000,29,High,8000000,0,58000,0.0
+R032,Road 32,Road,49,48,3,Strengthening,366000,18,Moderate,8000000,0,58000,0.0
+R033,Road 33,Road,66,38,18,Strengthening,187000,21,Moderate,8000000,0,58000,0.0
+R034,Road 34,Road,34,59,23,Pothole Repair,168000,15,Low,8000000,0,58000,0.0
+R035,Road 35,Road,87,25,17,Resurfacing,794000,37,Critical,8000000,794000,1945000,9.93
+R036,Road 36,Road,64,43,13,Drainage Improvement,673000,22,Moderate,8000000,0,58000,0.0
+R037,Road 37,Road,68,26,18,Strengthening,490000,29,Moderate,8000000,0,58000,0.0
+R038,Road 38,Road,63,44,9,Drainage Improvement,789000,20,Moderate,8000000,0,58000,0.0
+R039,Road 39,Road,92,25,10,Strengthening,230000,31,Critical,8000000,230000,4923000,2.88
+R040,Road 40,Road,62,35,15,Reconstruction,392000,22,Moderate,8000000,0,58000,0.0
+R041,Road 41,Road,28,69,6,Drainage Improvement,592000,10,Low,8000000,0,58000,0.0
+R042,Road 42,Road,32,74,10,Strengthening,221000,9,Low,8000000,0,58000,0.0
+R043,Road 43,Road,56,45,20,Drainage Improvement,563000,26,Moderate,8000000,0,58000,0.0
+R044,Road 44,Road,58,42,20,Resurfacing,298000,23,Moderate,8000000,0,58000,0.0
+R045,Road 45,Road,83,25,5,Pothole Repair,672000,38,High,8000000,0,58000,0.0
+R046,Road 46,Road,44,51,3,Pothole Repair,145000,19,Low,8000000,0,58000,0.0
+R047,Road 47,Road,57,50,13,Resurfacing,555000,23,Moderate,8000000,0,58000,0.0
+R048,Road 48,Road,93,25,14,Strengthening,808000,27,Critical,8000000,808000,5153000,10.1
+R049,Road 49,Road,47,49,8,Resurfacing,693000,15,Moderate,8000000,0,58000,0.0
+R050,Road 50,Road,30,73,21,Resurfacing,624000,12,Low,8000000,0,58000,0.0
+R051,Road 51,Road,67,39,13,Strengthening,875000,28,Moderate,8000000,0,58000,0.0
+R052,Road 52,Road,67,33,9,Reconstruction,634000,24,Moderate,8000000,0,58000,0.0
+R053,Road 53,Road,42,52,16,Reconstruction,521000,18,Low,8000000,0,58000,0.0
+R054,Road 54,Road,74,28,16,Reconstruction,284000,34,High,8000000,0,58000,0.0
+R055,Road 55,Road,40,56,16,Pothole Repair,880000,12,Low,8000000,0,58000,0.0
+R056,Road 56,Road,61,46,19,Reconstruction,459000,26,Moderate,8000000,0,58000,0.0
+R057,Road 57,Road,59,43,5,Resurfacing,192000,22,Moderate,8000000,0,58000,0.0
+R058,Road 58,Road,78,25,19,Drainage Improvement,135000,36,High,8000000,0,58000,0.0
+R059,Road 59,Road,26,71,11,Drainage Improvement,851000,9,Low,8000000,0,58000,0.0
+R060,Road 60,Road,27,74,18,Resurfacing,627000,10,Low,8000000,0,58000,0.0
+R061,Road 61,Road,77,27,21,Reconstruction,451000,34,High,8000000,0,58000,0.0
+R062,Road 62,Road,56,36,11,Resurfacing,822000,22,Moderate,8000000,0,58000,0.0
+R063,Road 63,Road,82,25,16,Pothole Repair,814000,31,High,8000000,0,58000,0.0
+R064,Road 64,Road,32,67,20,Reconstruction,683000,9,Low,8000000,0,58000,0.0
+R065,Road 65,Road,60,38,22,Pothole Repair,252000,22,Moderate,8000000,0,58000,0.0
+R066,Road 66,Road,87,25,3,Reconstruction,683000,31,Critical,8000000,683000,1262000,8.54
+R067,Road 67,Road,87,25,5,Drainage Improvement,512000,27,Critical,8000000,512000,750000,6.4
+R068,Road 68,Road,86,25,10,Strengthening,599000,34,Critical,8000000,0,253000,0.0
+R069,Road 69,Road,78,25,18,Reconstruction,572000,31,High,8000000,0,58000,0.0
+R070,Road 70,Road,51,44,12,Strengthening,874000,19,Moderate,8000000,0,58000,0.0
+R071,Road 71,Road,43,50,6,Resurfacing,495000,15,Low,8000000,0,58000,0.0
+R072,Road 72,Road,86,25,10,Reconstruction,268000,35,Critical,8000000,0,253000,0.0
+R073,Road 73,Road,33,73,23,Strengthening,567000,14,Low,8000000,0,58000,0.0
+R074,Road 74,Road,29,79,4,Drainage Improvement,831000,10,Low,8000000,0,58000,0.0
+R075,Road 75,Road,25,82,5,Strengthening,306000,8,Low,8000000,0,58000,0.0
+R076,Road 76,Road,88,25,18,Reconstruction,554000,42,Critical,8000000,554000,2739000,6.93
+R077,Road 77,Road,94,25,17,Pothole Repair,604000,42,Critical,8000000,604000,7396000,7.55
+R078,Road 78,Road,78,25,22,Resurfacing,718000,34,High,8000000,0,58000,0.0
+R079,Road 79,Road,73,29,5,Drainage Improvement,388000,28,High,8000000,0,58000,0.0
+R080,Road 80,Road,61,46,14,Pothole Repair,544000,26,Moderate,8000000,0,58000,0.0
+R081,Road 81,Road,37,66,9,Pothole Repair,507000,11,Low,8000000,0,58000,0.0
+R082,Road 82,Road,86,25,10,Resurfacing,885000,29,Critical,8000000,0,253000,0.0
+R083,Road 83,Road,32,61,17,Pothole Repair,241000,12,Low,8000000,0,58000,0.0
+R084,Road 84,Road,29,66,10,Reconstruction,475000,10,Low,8000000,0,58000,0.0
+R085,Road 85,Road,85,25,23,Drainage Improvement,807000,23,Critical,8000000,0,58000,0.0
+R086,Road 86,Road,91,25,6,Strengthening,815000,41,Critical,8000000,815000,4108000,10.19
+R087,Road 87,Road,74,25,17,Strengthening,798000,31,High,8000000,0,58000,0.0
+R088,Road 88,Road,50,49,13,Resurfacing,690000,18,Moderate,8000000,0,58000,0.0
+R089,Road 89,Road,38,64,5,Resurfacing,550000,17,Low,8000000,0,58000,0.0
+R090,Road 90,Road,83,25,8,Pothole Repair,187000,34,High,8000000,0,58000,0.0
+R091,Road 91,Road,53,39,7,Drainage Improvement,347000,22,Moderate,8000000,0,58000,0.0
+R092,Road 92,Road,91,25,7,Pothole Repair,468000,26,Critical,8000000,468000,3293000,5.85
+R093,Road 93,Road,33,67,7,Resurfacing,216000,10,Low,8000000,0,58000,0.0
+R094,Road 94,Road,48,60,9,Strengthening,697000,13,Moderate,8000000,0,58000,0.0
+R095,Road 95,Road,34,63,6,Resurfacing,672000,14,Low,8000000,0,58000,0.0
+R096,Road 96,Road,54,39,12,Resurfacing,232000,23,Moderate,8000000,0,58000,0.0
+R097,Road 97,Road,66,35,15,Reconstruction,267000,24,Moderate,8000000,0,58000,0.0
+R098,Road 98,Road,71,34,15,Strengthening,533000,28,High,8000000,0,58000,0.0
+R099,Road 99,Road,55,49,22,Resurfacing,129000,20,Moderate,8000000,0,58000,0.0
+R100,Road 100,Road,55,41,8,Drainage Improvement,238000,20,Moderate,8000000,0,58000,0.0

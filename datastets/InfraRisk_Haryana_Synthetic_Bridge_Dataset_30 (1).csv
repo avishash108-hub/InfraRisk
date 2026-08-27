@@ -1,0 +1,31 @@
+Asset_ID,Bridge_Name,Bridge_Type,Location,Age_Years,Expected_Life_Years,Condition_Score,Accidents_Last_3_Years,Environmental_Exposure,Population_Exposed,Nearby_Critical_Facilities,Bridge_Importance,Failure_Consequence,Risk_Score,Risk_Status,Inspection_Status
+B001,Sonipat Major Bridge 1,Major Bridge,Sonipat,17,40,73,12,Moderate,133687,6,High,Very High,75,High,Required
+B002,Kaithal Highway Bridge 2,Highway Bridge,Kaithal,8,40,79,4,High,122874,0,High,High,58,Moderate,Scheduled
+B003,Kurukshetra Minor Bridge 3,Minor Bridge,Kurukshetra,16,60,83,4,Moderate,98490,6,Moderate,High,50,Moderate,Scheduled
+B004,Fatehabad Minor Bridge 4,Minor Bridge,Fatehabad,24,40,50,8,Moderate,80393,3,Moderate,High,75,High,Required
+B005,Nuh Major Bridge 5,Major Bridge,Nuh,26,40,56,7,Moderate,109536,4,High,Very High,77,High,Required
+B006,Sonipat Major Bridge 6,Major Bridge,Sonipat,28,75,80,4,High,130616,4,High,Very High,66,Moderate,Scheduled
+B007,Gurugram Minor Bridge 7,Minor Bridge,Gurugram,11,50,76,11,Moderate,31889,5,High,High,63,Moderate,Scheduled
+B008,Kurukshetra Highway Bridge 8,Highway Bridge,Kurukshetra,17,75,77,10,Moderate,128051,5,Very High,Very High,66,Moderate,Scheduled
+B009,Palwal Major Bridge 9,Major Bridge,Palwal,45,75,57,8,High,136569,5,High,Very High,85,Critical,Required
+B010,Sirsa Major Bridge 10,Major Bridge,Sirsa,21,50,69,0,Low,125121,6,High,Very High,49,Moderate,Scheduled
+B011,Kurukshetra Major Bridge 11,Major Bridge,Kurukshetra,19,50,78,7,Moderate,135326,6,High,Very High,64,Moderate,Scheduled
+B012,Faridabad Major Bridge 12,Major Bridge,Faridabad,32,60,56,7,Moderate,140049,2,High,Very High,75,High,Required
+B013,Hisar Major Bridge 13,Major Bridge,Hisar,7,75,91,7,Moderate,56009,5,Very High,Very High,54,Moderate,Scheduled
+B014,Rohtak Major Bridge 14,Major Bridge,Rohtak,8,40,76,7,Moderate,26775,4,High,High,56,Moderate,Scheduled
+B015,Karnal Highway Bridge 15,Highway Bridge,Karnal,20,40,66,2,Low,133971,5,High,Very High,55,Moderate,Scheduled
+B016,Rohtak Minor Bridge 16,Minor Bridge,Rohtak,33,50,48,9,High,137309,2,Low,High,86,Critical,Required
+B017,Hisar Highway Bridge 17,Highway Bridge,Hisar,35,60,62,6,High,141322,6,Moderate,Very High,80,High,Required
+B018,Gurugram Highway Bridge 18,Highway Bridge,Gurugram,7,75,84,5,Moderate,11760,0,High,Moderate,40,Low,Completed
+B019,Yamunanagar Minor Bridge 19,Minor Bridge,Yamunanagar,31,60,64,1,Moderate,127311,4,High,Very High,62,Moderate,Scheduled
+B020,Hisar Highway Bridge 20,Highway Bridge,Hisar,30,50,58,7,Moderate,23221,4,Moderate,Moderate,62,Moderate,Scheduled
+B021,Ambala Minor Bridge 21,Minor Bridge,Ambala,5,50,84,7,High,54421,3,High,High,59,Moderate,Scheduled
+B022,Gurugram Highway Bridge 22,Highway Bridge,Gurugram,36,50,44,2,Moderate,53760,3,Moderate,Moderate,61,Moderate,Scheduled
+B023,Palwal Major Bridge 23,Major Bridge,Palwal,27,40,52,2,Moderate,74060,3,High,High,66,Moderate,Scheduled
+B024,Jind Major Bridge 24,Major Bridge,Jind,14,75,87,8,Moderate,36484,4,High,High,54,Moderate,Scheduled
+B025,Rewari Highway Bridge 25,Highway Bridge,Rewari,17,50,66,1,High,91623,3,High,High,60,Moderate,Scheduled
+B026,Hisar Highway Bridge 26,Highway Bridge,Hisar,13,60,86,8,Moderate,146132,1,Moderate,High,55,Moderate,Scheduled
+B027,Rewari Minor Bridge 27,Minor Bridge,Rewari,39,50,44,9,Low,39765,0,High,Moderate,67,Moderate,Scheduled
+B028,Sonipat Major Bridge 28,Major Bridge,Sonipat,9,50,78,12,Moderate,53626,5,High,High,63,Moderate,Scheduled
+B029,Fatehabad Major Bridge 29,Major Bridge,Fatehabad,40,60,45,4,High,47307,2,Moderate,Moderate,71,High,Required
+B030,Gurugram Major Bridge 30,Major Bridge,Gurugram,29,60,56,0,Low,11023,2,Moderate,Low,35,Low,Completed

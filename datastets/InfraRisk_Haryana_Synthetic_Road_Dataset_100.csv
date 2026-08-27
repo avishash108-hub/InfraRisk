@@ -1,0 +1,101 @@
+Asset_ID,Road_Name,Road_Type,Age_Years,Expected_Life_Years,Condition_Score,Accidents_Last_3_Years,Environmental_Exposure,Population_Density,Nearby_Critical_Facilities,Road_Importance,Failure_Consequence
+R001,Major-101 Gurugram,Major District Road,6,20,72,10,Low,1758,1,Low,Moderate
+R002,Major-102 Faridabad,Major District Road,20,20,44,15,Low,697,3,Low,Moderate
+R003,Major-103 Panipat,Major District Road,3,20,85,15,Moderate,819,0,Low,Low
+R004,National-104 Sonipat,National Highway,16,25,60,27,Low,1813,5,High,Very High
+R005,National-105 Rohtak,National Highway,5,25,87,16,High,1486,4,Very High,Very High
+R006,National-106 Hisar,National Highway,17,25,51,34,Moderate,1537,5,High,Very High
+R007,Major-107 Ambala,Major District Road,9,20,68,3,Low,842,1,High,Moderate
+R008,National-108 Karnal,National Highway,6,25,84,27,Moderate,997,2,Very High,High
+R009,State-109 Rewari,State Highway,14,20,61,26,Moderate,1649,1,High,High
+R010,Major-110 Bhiwani,Major District Road,8,20,75,7,Moderate,1560,3,Moderate,High
+R011,Major-111 Yamunanagar,Major District Road,13,20,58,9,High,1071,4,Low,Moderate
+R012,National-112 Panchkula,National Highway,9,25,76,23,Moderate,1566,7,Very High,Very High
+R013,National-113 Sirsa,National Highway,11,25,65,25,Moderate,1127,6,Very High,Very High
+R014,State-114 Jind,State Highway,10,20,68,21,Low,346,1,High,Moderate
+R015,National-115 Kaithal,National Highway,23,25,40,37,Moderate,1470,7,High,Very High
+R016,Major-116 Kurukshetra,Major District Road,11,20,61,5,High,1787,4,High,Very High
+R017,Major-117 Fatehabad,Major District Road,13,20,60,11,Low,256,4,Moderate,Moderate
+R018,Major-118 Palwal,Major District Road,8,20,84,5,Low,1558,3,High,High
+R019,National-119 Nuh,National Highway,14,25,60,44,Moderate,1250,0,High,Moderate
+R020,National-120 Jhajjar,National Highway,14,25,64,25,Low,1411,1,High,High
+R021,National-121 Gurugram,National Highway,18,25,48,44,Low,1223,2,High,High
+R022,State-122 Faridabad,State Highway,19,20,57,11,Moderate,1067,5,Moderate,High
+R023,State-123 Panipat,State Highway,19,20,58,8,Low,942,0,Moderate,Moderate
+R024,Major-124 Sonipat,Major District Road,20,20,49,9,Low,1542,0,Low,Moderate
+R025,National-125 Rohtak,National Highway,5,25,76,31,Moderate,820,7,High,Very High
+R026,National-126 Hisar,National Highway,20,25,46,46,Low,1218,6,Very High,Very High
+R027,National-127 Ambala,National Highway,6,25,75,37,Moderate,1206,0,Very High,High
+R028,Major-128 Karnal,Major District Road,6,20,73,14,Low,473,3,High,Moderate
+R029,National-129 Rewari,National Highway,9,25,80,18,Low,1197,3,Very High,High
+R030,National-130 Bhiwani,National Highway,17,25,51,13,High,1793,3,High,Very High
+R031,National-131 Yamunanagar,National Highway,16,25,65,40,High,370,2,High,Moderate
+R032,State-132 Panchkula,State Highway,3,20,91,13,Low,1676,7,High,Very High
+R033,National-133 Sirsa,National Highway,9,25,75,23,Moderate,1360,0,High,High
+R034,Major-134 Jind,Major District Road,13,20,58,3,Moderate,1337,2,High,High
+R035,National-135 Kaithal,National Highway,19,25,46,21,Moderate,1632,3,High,Very High
+R036,State-136 Kurukshetra,State Highway,6,20,79,23,Moderate,1108,5,Moderate,High
+R037,State-137 Fatehabad,State Highway,9,20,76,12,Moderate,1625,4,High,Very High
+R038,State-138 Palwal,State Highway,13,20,59,5,Moderate,1403,1,High,High
+R039,National-139 Nuh,National Highway,20,25,48,42,Low,964,1,Very High,High
+R040,National-140 Jhajjar,National Highway,14,25,64,20,High,1690,4,Very High,Very High
+R041,Major-141 Gurugram,Major District Road,19,20,44,11,Low,525,4,High,High
+R042,National-142 Faridabad,National Highway,6,25,76,27,Moderate,1719,5,Very High,Very High
+R043,National-143 Panipat,National Highway,23,25,43,42,Low,354,1,Very High,Moderate
+R044,Major-144 Sonipat,Major District Road,16,20,58,3,Low,517,4,Low,Moderate
+R045,National-145 Rohtak,National Highway,17,25,61,45,Low,1665,2,High,High
+R046,Major-146 Hisar,Major District Road,4,20,88,6,Low,881,5,Moderate,High
+R047,National-147 Ambala,National Highway,14,25,61,25,Moderate,1396,6,High,Very High
+R048,Major-148 Karnal,Major District Road,7,20,77,7,High,300,2,Low,Low
+R049,Major-149 Rewari,Major District Road,13,20,70,9,Low,1686,1,Moderate,High
+R050,State-150 Bhiwani,State Highway,4,20,92,12,High,1192,5,Moderate,High
+R051,State-151 Yamunanagar,State Highway,10,20,71,5,Moderate,820,1,Moderate,Moderate
+R052,State-152 Panchkula,State Highway,14,20,71,17,High,486,4,High,High
+R053,National-153 Sirsa,National Highway,21,25,47,12,Moderate,957,5,High,High
+R054,State-154 Jind,State Highway,19,20,47,17,Low,1701,6,Moderate,Very High
+R055,National-155 Kaithal,National Highway,19,25,50,33,Low,1610,5,Very High,Very High
+R056,Major-156 Kurukshetra,Major District Road,13,20,60,11,Low,1086,5,High,High
+R057,State-157 Fatehabad,State Highway,12,20,63,11,Moderate,1026,2,High,High
+R058,Major-158 Palwal,Major District Road,12,20,71,2,Low,1130,5,Moderate,High
+R059,State-159 Nuh,State Highway,17,20,62,26,Moderate,1875,2,Moderate,High
+R060,Major-160 Jhajjar,Major District Road,5,20,84,18,Moderate,936,1,High,Moderate
+R061,National-161 Gurugram,National Highway,12,25,66,22,Low,751,7,High,High
+R062,Major-162 Faridabad,Major District Road,5,20,89,15,Moderate,1721,6,High,Very High
+R063,State-163 Panipat,State Highway,15,20,60,9,High,1827,1,Moderate,High
+R064,State-164 Sonipat,State Highway,10,20,69,27,Low,760,1,High,Moderate
+R065,State-165 Rohtak,State Highway,7,20,84,26,High,1156,6,High,Very High
+R066,Major-166 Hisar,Major District Road,17,20,53,17,Low,756,4,Moderate,Moderate
+R067,Major-167 Ambala,Major District Road,18,20,53,10,Low,835,3,Moderate,Moderate
+R068,State-168 Karnal,State Highway,13,20,67,22,Low,723,6,Moderate,High
+R069,Major-169 Rewari,Major District Road,7,20,76,4,Moderate,1361,7,Moderate,Very High
+R070,State-170 Bhiwani,State Highway,4,20,83,18,High,1446,0,High,High
+R071,Major-171 Yamunanagar,Major District Road,15,20,68,2,Low,1048,6,Moderate,High
+R072,Major-172 Panchkula,Major District Road,20,20,49,17,Low,1244,0,Low,Moderate
+R073,State-173 Sirsa,State Highway,13,20,69,28,High,511,0,Moderate,Low
+R074,State-174 Jind,State Highway,3,20,81,25,Low,1195,2,High,High
+R075,National-175 Kaithal,National Highway,11,25,73,30,Moderate,941,6,High,High
+R076,State-176 Kurukshetra,State Highway,16,20,58,7,Low,1354,0,High,High
+R077,State-177 Fatehabad,State Highway,10,20,66,25,Moderate,756,3,Moderate,Moderate
+R078,National-178 Palwal,National Highway,22,25,41,25,Moderate,484,3,High,Moderate
+R079,State-179 Nuh,State Highway,11,20,72,10,Moderate,585,4,Moderate,Moderate
+R080,National-180 Jhajjar,National Highway,21,25,39,29,Moderate,1714,3,Very High,Very High
+R081,National-181 Gurugram,National Highway,21,25,46,16,High,1479,1,Very High,High
+R082,Major-182 Faridabad,Major District Road,4,20,88,15,Moderate,1286,5,High,Very High
+R083,National-183 Panipat,National Highway,16,25,65,16,High,1551,7,Very High,Very High
+R084,Major-184 Sonipat,Major District Road,7,20,83,7,Moderate,1582,4,High,Very High
+R085,Major-185 Rohtak,Major District Road,20,20,57,16,High,1463,4,Moderate,High
+R086,State-186 Hisar,State Highway,10,20,66,13,Low,1201,6,High,Very High
+R087,State-187 Ambala,State Highway,3,20,94,15,Moderate,976,4,Moderate,High
+R088,State-188 Karnal,State Highway,11,20,69,22,Moderate,641,1,Moderate,Moderate
+R089,National-189 Rewari,National Highway,16,25,65,45,Moderate,1572,7,High,Very High
+R090,State-190 Bhiwani,State Highway,3,20,81,14,Moderate,748,4,Moderate,Moderate
+R091,Major-191 Yamunanagar,Major District Road,14,20,70,18,Moderate,1777,5,Moderate,Very High
+R092,State-192 Panchkula,State Highway,17,20,56,14,Low,1727,3,High,Very High
+R093,State-193 Sirsa,State Highway,6,20,77,11,Moderate,816,4,Moderate,Moderate
+R094,National-194 Jind,National Highway,9,25,75,24,Low,278,2,Very High,Moderate
+R095,State-195 Kaithal,State Highway,4,20,78,22,Moderate,508,7,High,High
+R096,National-196 Kurukshetra,National Highway,3,25,88,40,Moderate,627,0,Very High,Moderate
+R097,State-197 Fatehabad,State Highway,18,20,49,7,Moderate,1431,0,High,High
+R098,National-198 Palwal,National Highway,7,25,79,15,Low,1815,6,High,Very High
+R099,Major-199 Nuh,Major District Road,10,20,80,14,High,858,6,Moderate,High
+R100,State-200 Jhajjar,State Highway,4,20,80,11,Low,416,2,Moderate,Moderate
