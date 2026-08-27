@@ -10,7 +10,7 @@ def get_db():
     con = psycopg.connect(
         dbname = 'DB_NAME',
         host = "DB_HOST",
-        password = "PASSWORD",
+        password = "DB_PASSWORD",
         user = "DB_USER",
         port  = 5432
     )
