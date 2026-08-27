@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Assets | InfraRisk</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+<!-- TOP NAVIGATION -->
+
+<header class="topbar">
+
+    <div class="brand-area">
+
+       
+
+        <div class="brand-name">
+            InfraRisk
+        </div>
+
+    </div>
+
+    <div class="officer-area">
+
+        <span class="officer-name">
+            Municipal Officer
+        </span>
+
+        <button class="logout-button" type="button">
+            Logout
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+    <div class="sidebar-title">
+        InfraRisk
+    </div>
+
+    <nav>
+
+        <a href="dashboard.html" class="sidebar-link">
+            <span>⌂</span>
+            Dashboard
+        </a>
+
+        <a href="assets.html" class="sidebar-link active">
+            <span>▣</span>
+            Assets
+        </a>
+
+        <a href="repair-planning.html" class="sidebar-link">
+            <span>⚒</span>
+            Repair Planning
+        </a>
+
+        <a href="reports.html" class="sidebar-link">
+            <span>▤</span>
+            Reports
+        </a>
+
+    </nav>
+
+</aside>
+
+
+<!-- MAIN CONTENT -->
+
+<main class="dashboard-content">
+
+    <div class="page-heading">
+
+        <h1>Infrastructure Assets</h1>
+
+        <p>
+            Monitor asset condition, risk levels and inspection status.
+        </p>
+
+    </div>
+
+
+    <!-- ASSET OVERVIEW -->
+
+    <section>
+
+        <h2 class="section-title">
+            Asset Overview
+        </h2>
+
+        <div class="maintenance-grid">
+
+            <div class="maintenance-card">
+
+                <span>Total Assets</span>
+
+                <strong>120</strong>
+
+                <small>
+                    Monitored infrastructure
+                </small>
+
+            </div>
+
+
+            <div class="maintenance-card">
+
+                <span>High Risk</span>
+
+                <strong>24</strong>
+
+                <small>
+                    Require attention
+                </small>
+
+            </div>
+
+
+            <div class="maintenance-card">
+
+                <span>Critical</span>
+
+                <strong>8</strong>
+
+                <small>
+                    Immediate action
+                </small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ASSET RISK OVERVIEW -->
+
+    <section class="assets-risk-section">
+
+        <h2 class="section-title">
+            Asset Risk Overview
+        </h2>
+
+        <div class="asset-table-container">
+
+            <table class="asset-table">
+
+                <thead>
+
+                    <tr>
+                        <th>Asset ID</th>
+                        <th>Type</th>
+                        <th>Condition</th>
+                        <th>Risk Score</th>
+                        <th>Status</th>
+                        <th>Inspection</th>
+                        <th>Details</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <!-- ROAD A -->
+
+                    <tr>
+
+                        <td>1</td>
+
+                        <td>Road</td>
+
+                        <td>35/100</td>
+
+                        <td>
+                            <strong>87/100</strong>
+                        </td>
+
+                        <td>
+                            <span class="asset-status critical">
+                                Critical
+                            </span>
+                        </td>
+
+                        <td>
+                            Required
+                        </td>
+
+                        <td>
+
+                            <button
+                                class="asset-details-button"
+                                type="button"
+                                onclick="openAssetDetails('roadA')"
+                            >
+                                View
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- ROAD B -->
+
+                    <tr>
+
+                        <td>2</td>
+
+                        <td>Road</td>
+
+                        <td>70/100</td>
+
+                        <td>
+                            <strong>42/100</strong>
+                        </td>
+
+                        <td>
+                            <span class="asset-status moderate">
+                                Moderate
+                            </span>
+                        </td>
+
+                        <td>
+                            Scheduled
+                        </td>
+
+                        <td>
+
+                            <button
+                                class="asset-details-button"
+                                type="button"
+                                onclick="openAssetDetails('roadB')"
+                            >
+                                View
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- BRIDGE C -->
+
+                    <tr>
+
+                        <td>3</td>
+
+                        <td>Bridge</td>
+
+                        <td>45/100</td>
+
+                        <td>
+                            <strong>76/100</strong>
+                        </td>
+
+                        <td>
+                            <span class="asset-status high">
+                                High
+                            </span>
+                        </td>
+
+                        <td>
+                            Required
+                        </td>
+
+                        <td>
+
+                            <button
+                                class="asset-details-button"
+                                type="button"
+                                onclick="openAssetDetails('bridgeC')"
+                            >
+                                View
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- ROAD D -->
+
+                    <tr>
+
+                        <td>4</td>
+
+                        <td>Road</td>
+
+                        <td>85/100</td>
+
+                        <td>
+                            <strong>25/100</strong>
+                        </td>
+
+                        <td>
+                            <span class="asset-status low">
+                                Low
+                            </span>
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                        <td>
+
+                            <button
+                                class="asset-details-button"
+                                type="button"
+                                onclick="openAssetDetails('roadD')"
+                            >
+                                View
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- RISK EXPLANATION -->
+
+    <section class="risk-explanation-section">
+
+        <div class="risk-explanation-heading">
+
+            <div>
+
+                <h2 class="section-title">
+                    How Risk Is Assessed
+                </h2>
+
+                <p class="section-description">
+                    Risk is evaluated using asset condition, age, accident history,
+                    environmental exposure and potential consequences of failure.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="risk-factor-grid">
+
+            <div class="risk-factor-card">
+
+                <strong>Asset Condition</strong>
+
+                <span>
+                    Physical condition and inspection findings.
+                </span>
+
+            </div>
+
+
+            <div class="risk-factor-card">
+
+                <strong>Asset Age</strong>
+
+                <span>
+                    Current age compared with expected service life.
+                </span>
+
+            </div>
+
+
+            <div class="risk-factor-card">
+
+                <strong>Accident History</strong>
+
+                <span>
+                    Historical accidents associated with the asset.
+                </span>
+
+            </div>
+
+
+            <div class="risk-factor-card">
+
+                <strong>Environmental Risk</strong>
+
+                <span>
+                    Exposure to flooding and other environmental hazards.
+                </span>
+
+            </div>
+
+
+            <div class="risk-factor-card">
+
+                <strong>Failure Consequence</strong>
+
+                <span>
+                    Potential impact on important public facilities and services.
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="last-updated">
+
+        Last updated:
+        <strong>August 2026</strong>
+
+    </div>
+
+</main>
+
+
+<!-- ASSET DETAILS POPUP -->
+
+<div class="asset-details-overlay" id="assetDetailsOverlay">
+
+    <div class="asset-details-modal">
+
+        <button
+            class="asset-details-close"
+            type="button"
+            onclick="closeAssetDetails()"
+        >
+            ×
+        </button>
+
+
+        <div class="asset-details-header">
+
+            <div>
+
+                <span class="asset-details-label">
+                    ASSET DETAILS
+                </span>
+
+                <h2 id="assetName">
+                    Road A
+                </h2>
+
+                <p id="assetType">
+                    Road Infrastructure
+                </p>
+
+            </div>
+
+
+            <div class="asset-risk-score">
+
+                <strong id="assetRiskScore">
+                    87
+                </strong>
+
+                <span>
+                    /100
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- STATUS -->
+
+        <div class="asset-detail-status">
+
+            <span>
+                Risk Status
+            </span>
+
+            <strong
+                id="assetRiskStatus"
+                class="asset-status critical"
+            >
+                Critical
+            </strong>
+
+        </div>
+
+
+        <!-- CONTRIBUTING FACTORS -->
+
+        <h3>
+            Risk Contributing Factors
+        </h3>
+
+
+        <div class="factor-list">
+
+            <div class="factor-row">
+
+                <span>
+                    Asset Condition
+                </span>
+
+                <strong id="factorCondition">
+                    Poor
+                </strong>
+
+            </div>
+
+
+            <div class="factor-row">
+
+                <span>
+                    Asset Age
+                </span>
+
+                <strong id="factorAge">
+                    15 years
+                </strong>
+
+            </div>
+
+
+            <div class="factor-row">
+
+                <span>
+                    Accident History
+                </span>
+
+                <strong id="factorAccidents">
+                    High
+                </strong>
+
+            </div>
+
+
+            <div class="factor-row">
+
+                <span>
+                    Environmental Risk
+                </span>
+
+                <strong id="factorEnvironment">
+                    High
+                </strong>
+
+            </div>
+
+
+            <div class="factor-row">
+
+                <span>
+                    Nearby Critical Facility
+                </span>
+
+                <strong id="factorFacility">
+                    Yes
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONSEQUENCE -->
+
+        <div class="consequence-box">
+
+            <span>
+                FAILURE CONSEQUENCE
+            </span>
+
+            <strong id="assetConsequence">
+                High
+            </strong>
+
+            <p id="assetReason">
+
+                Poor condition, accident history and proximity to
+                critical public facilities increase the potential
+                impact of failure.
+
+            </p>
+
+        </div>
+
+
+        <!-- LIFECYCLE -->
+
+        <div class="lifecycle-box">
+
+            <div class="lifecycle-heading">
+
+                <span>
+                    Lifecycle Status
+                </span>
+
+                <strong id="lifecycleStatus">
+                    Aging
+                </strong>
+
+            </div>
+
+
+            <div class="lifecycle-bar">
+
+                <div
+                    class="lifecycle-progress"
+                    id="lifecycleProgress"
+                ></div>
+
+            </div>
+
+
+            <p id="lifecycleText">
+                15 of 20 expected service years used.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+    const assetDetailsOverlay =
+        document.getElementById("assetDetailsOverlay");
+
+
+    const assetData = {
+
+        roadA: {
+
+            name: "Road A",
+
+            type: "Road Infrastructure",
+
+            risk: "87",
+
+            status: "Critical",
+
+            statusClass: "critical",
+
+            condition: "Poor",
+
+            age: "15 years",
+
+            accidents: "High",
+
+            environment: "High",
+
+            facility: "Yes",
+
+            consequence: "High",
+
+            reason:
+                "Poor condition, accident history and proximity to critical public facilities increase the potential impact of failure.",
+
+            lifecycle:
+                "Aging",
+
+            lifecycleProgress: "75%",
+
+            lifecycleText:
+                "15 of 20 expected service years used."
+
+        },
+
+
+        roadB: {
+
+            name: "Road B",
+
+            type: "Road Infrastructure",
+
+            risk: "42",
+
+            status: "Moderate",
+
+            statusClass: "moderate",
+
+            condition: "Good",
+
+            age: "8 years",
+
+            accidents: "Low",
+
+            environment: "Moderate",
+
+            facility: "No",
+
+            consequence: "Low",
+
+            reason:
+                "Good physical condition and lower consequence of failure result in a moderate overall risk.",
+
+            lifecycle:
+                "Normal",
+
+            lifecycleProgress: "40%",
+
+            lifecycleText:
+                "8 of 20 expected service years used."
+
+        },
+
+
+        bridgeC: {
+
+            name: "Bridge C",
+
+            type: "Bridge Infrastructure",
+
+            risk: "76",
+
+            status: "High",
+
+            statusClass: "high",
+
+            condition: "Fair",
+
+            age: "20 years",
+
+            accidents: "High",
+
+            environment: "High",
+
+            facility: "Yes",
+
+            consequence: "High",
+
+            reason:
+                "Aging structure, accident history and environmental exposure increase the potential consequence of failure.",
+
+            lifecycle:
+                "Aging",
+
+            lifecycleProgress: "80%",
+
+            lifecycleText:
+                "20 of 25 expected service years used."
+
+        },
+
+
+        roadD: {
+
+            name: "Road D",
+
+            type: "Road Infrastructure",
+
+            risk: "25",
+
+            status: "Low",
+
+            statusClass: "low",
+
+            condition: "Good",
+
+            age: "5 years",
+
+            accidents: "Low",
+
+            environment: "Low",
+
+            facility: "No",
+
+            consequence: "Low",
+
+            reason:
+                "Good condition, low accident history and limited exposure result in a low overall risk.",
+
+            lifecycle:
+                "Normal",
+
+            lifecycleProgress: "25%",
+
+            lifecycleText:
+                "5 of 20 expected service years used."
+
+        }
+
+    };
+
+
+    function openAssetDetails(assetId) {
+
+        const asset = assetData[assetId];
+
+
+        document.getElementById("assetName").textContent =
+            asset.name;
+
+
+        document.getElementById("assetType").textContent =
+            asset.type;
+
+
+        document.getElementById("assetRiskScore").textContent =
+            asset.risk;
+
+
+        const statusElement =
+            document.getElementById("assetRiskStatus");
+
+
+        statusElement.textContent =
+            asset.status;
+
+
+        statusElement.className =
+            "asset-status " + asset.statusClass;
+
+
+        document.getElementById("factorCondition").textContent =
+            asset.condition;
+
+
+        document.getElementById("factorAge").textContent =
+            asset.age;
+
+
+        document
