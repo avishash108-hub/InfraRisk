@@ -95,7 +95,7 @@ Maintenance Planning
 Municipal Decision
 
 
-
+```
 
 Infrastructure Health Assessment
 
@@ -349,6 +349,5 @@ The fabricated/synthetic infrastructure data used in the prototype does not repr
 
 Before deployment in a real municipal environment, the system would require verified infrastructure data, validated engineering methodologies, domain-expert review, appropriate government authorization, security assessment, and operational testing.
 
-Project Status
-
+#Project Status
 Prototype / Hackathon Project
