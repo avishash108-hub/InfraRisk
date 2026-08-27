@@ -8,10 +8,10 @@ import os
 import os
 def get_db():
     con = psycopg.connect(
-        dbname = "infrarisk",
-        host = "localhost",
-        password = "avi",
-        user = "postgres",
+        dbname = 'DB_NAME',
+        host = "DB_HOST",
+        password = "PASSWORD",
+        user = "DB_USER",
         port  = 5432
     )
     return con
