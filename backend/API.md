@@ -31,8 +31,9 @@ Invalid credentials — 401
 {
     "error": "Invalid Government ID or password"
 }
-2. Municipal Officer Dashboard
 
+
+2. Municipal Officer Dashboard
 GET /dashboard
 
 Returns infrastructure health information for the municipal officer.
@@ -73,19 +74,20 @@ Success — 200
         }
     ]
 }
-Risk Classification
 
-Risk Score	Status
->= 85	Critical
+#Risk Classification
+
+Risk Score	
+Status 
+>= 85	    Critical
 65–84.99	High
 45–64.99	Moderate
-< 45	Low
-Authentication
+< 45	    Low
 
+#Authentication
 The API uses session-based authentication. After successful login, Flask establishes a session containing:
 
-gov_id
-role
+gov_id and role
 
 
 - Protected routes use this session to determine whether the user is authorized and which dashboard should be displayed.
