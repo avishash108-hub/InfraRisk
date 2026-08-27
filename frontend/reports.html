@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reports | InfraRisk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+
+    <header class="topbar">
+
+        <div class="brand-area">
+
+         
+
+            <div class="brand-name">
+                InfraRisk
+            </div>
+
+        </div>
+
+        <div class="officer-area">
+
+            <span class="officer-name">
+                Municipal Officer
+            </span>
+
+            <button class="logout-button" type="button">
+                Logout
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-title">
+            InfraRisk
+        </div>
+
+        <nav>
+
+            <a href="dashboard.html" class="sidebar-link">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="assets.html" class="sidebar-link">
+                <span>▣</span>
+                Assets
+            </a>
+
+            <a href="repair-planning.html" class="sidebar-link">
+                <span>⚒</span>
+                Repair Planning
+            </a>
+
+            <a href="reports.html" class="sidebar-link active">
+                <span>▤</span>
+                Reports
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="dashboard-content">
+
+        <div class="page-heading">
+
+            <h1>Infrastructure Reports</h1>
+
+            <p>
+                Risk patterns, asset conditions and repair impact analysis.
+            </p>
+
+        </div>
+
+
+        <!-- RISK DISTRIBUTION -->
+
+        <section class="report-section">
+
+            <h2 class="section-title">
+                Asset Risk Distribution
+            </h2>
+
+            <p class="section-description">
+                Distribution of monitored assets according to their calculated risk level.
+            </p>
+
+
+            <div class="risk-distribution">
+
+                <div class="risk-bar">
+
+                    <div class="risk-bar-label">
+                        <span>Critical</span>
+                        <strong>8 assets</strong>
+                    </div>
+
+                    <div class="bar-background">
+                        <div class="bar-critical" style="width: 16%;"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="risk-bar">
+
+                    <div class="risk-bar-label">
+                        <span>High</span>
+                        <strong>24 assets</strong>
+                    </div>
+
+                    <div class="bar-background">
+                        <div class="bar-high" style="width: 48%;"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="risk-bar">
+
+                    <div class="risk-bar-label">
+                        <span>Moderate</span>
+                        <strong>38 assets</strong>
+                    </div>
+
+                    <div class="bar-background">
+                        <div class="bar-moderate" style="width: 76%;"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="risk-bar">
+
+                    <div class="risk-bar-label">
+                        <span>Low</span>
+                        <strong>50 assets</strong>
+                    </div>
+
+                    <div class="bar-background">
+                        <div class="bar-low" style="width: 100%;"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONDITION BY ASSET TYPE -->
+
+        <section class="report-section">
+
+            <h2 class="section-title">
+                Condition by Asset Type
+            </h2>
+
+            <p class="section-description">
+                Comparison of infrastructure condition across monitored asset categories.
+            </p>
+
+
+            <div class="condition-chart">
+
+                <div class="condition-item">
+
+                    <div class="condition-info">
+                        <span>Roads</span>
+                        <strong>65 / 100</strong>
+                    </div>
+
+                    <div class="condition-track">
+                        <div class="condition-fill roads-fill"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="condition-item">
+
+                    <div class="condition-info">
+                        <span>Bridges</span>
+                        <strong>78 / 100</strong>
+                    </div>
+
+                    <div class="condition-track">
+                        <div class="condition-fill bridges-fill"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="condition-item">
+
+                    <div class="condition-info">
+                        <span>Drainage</span>
+                        <strong>58 / 100</strong>
+                    </div>
+
+                    <div class="condition-track">
+                        <div class="condition-fill drainage-fill"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="condition-item">
+
+                    <div class="condition-info">
+                        <span>Water Systems</span>
+                        <strong>71 / 100</strong>
+                    </div>
+
+                    <div class="condition-track">
+                        <div class="condition-fill water-fill"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RISK FACTORS -->
+
+        <section class="report-section">
+
+            <h2 class="section-title">
+                Major Risk Factors
+            </h2>
+
+            <p class="section-description">
+                Key factors contributing to infrastructure risk assessment.
+            </p>
+
+
+            <div class="factor-grid">
+
+                <div class="factor-card">
+
+                    <span class="factor-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Asset Condition
+                    </h3>
+
+                    <p>
+                        Poor physical condition increases the likelihood of infrastructure failure.
+                    </p>
+
+                </div>
+
+
+                <div class="factor-card">
+
+                    <span class="factor-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Age
+                    </h3>
+
+                    <p>
+                        Older assets generally require greater maintenance attention and monitoring.
+                    </p>
+
+                </div>
+
+
+                <div class="factor-card">
+
+                    <span class="factor-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Accident History
+                    </h3>
+
+                    <p>
+                        Previous incidents increase the assessed consequence and priority of an asset.
+                    </p>
+
+                </div>
+
+
+                <div class="factor-card">
+
+                    <span class="factor-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Environmental Risk
+                    </h3>
+
+                    <p>
+                        Flooding and other environmental conditions can increase infrastructure vulnerability.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- REPAIR IMPACT -->
+
+        <section class="report-section">
+
+            <h2 class="section-title">
+                Expected Repair Impact
+            </h2>
+
+            <p class="section-description">
+                Expected reduction in infrastructure risk after priority repairs.
+            </p>
+
+
+            <div class="impact-card">
+
+                <div class="impact-main">
+
+                    <span>
+                        Priority Repair
+                    </span>
+
+                    <strong>
+                        Road A
+                    </strong>
+
+                    <small>
+                        Highest expected risk reduction
+                    </small>
+
+                </div>
+
+
+                <div class="impact-value">
+
+                    <span>
+                        Expected Reduction
+                    </span>
+
+                    <strong>
+                        41%
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- KEY FINDINGS -->
+
+        <section class="report-section">
+
+            <h2 class="section-title">
+                Key Findings
+            </h2>
+
+
+            <div class="findings-box">
+
+                <div class="finding">
+                    <span>●</span>
+                    <p>
+                        Drainage assets show comparatively lower condition and require closer monitoring.
+                    </p>
+                </div>
+
+                <div class="finding">
+                    <span>●</span>
+                    <p>
+                        Critical and high-risk assets should receive priority during maintenance planning.
+                    </p>
+                </div>
+
+                <div class="finding">
+                    <span>●</span>
+                    <p>
+                        Repair prioritization considers both asset risk and the potential consequences of failure.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BACK -->
+
+        <div class="back-dashboard">
+
+            <a href="dashboard.html">
+                ← Back to Dashboard
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- LOGOUT POPUP -->
+
+    <div class="logout-overlay">
+
+        <div class="logout-modal">
+
+            <button class="close-modal" type="button">
+                ×
+            </button>
+
+            <h2>
+                Are you sure?
+            </h2>
+
+            <p>
+                Are you sure you want to log out of InfraRisk?
+            </p>
+
+            <div class="modal-buttons">
+
+                <button class="cancel-button" type="button">
+                    No
+                </button>
+
+                <button class="confirm-logout" type="button">
+                    Yes, Logout
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- LOGOUT SCRIPT -->
+
+    <script>
+
+        const logoutButton = document.querySelector(".logout-button");
+        const logoutOverlay = document.querySelector(".logout-overlay");
+        const closeModal = document.querySelector(".close-modal");
+        const cancelButton = document.querySelector(".cancel-button");
+        const confirmLogout = document.querySelector(".confirm-logout");
+
+
+        logoutButton.addEventListener("click", function () {
+            logoutOverlay.classList.add("show");
+        });
+
+
+        closeModal.addEventListener("click", function () {
+            logoutOverlay.classList.remove("show");
+        });
+
+
+        cancelButton.addEventListener("click", function () {
+            logoutOverlay.classList.remove("show");
+        });
+
+
+        confirmLogout.addEventListener("click", function () {
+            window.location.href = "login.html";
+        });
+
+    </script>
+
+
+</body>
+</html>
+
+
