@@ -1,0 +1,437 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Repair Planning | InfraRisk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+
+    <header class="topbar">
+
+        <div class="brand-area">
+
+            
+
+            <div class="brand-name">
+                InfraRisk
+            </div>
+
+        </div>
+
+        <div class="officer-area">
+
+            <span class="officer-name">
+                Municipal Officer
+            </span>
+
+            <button class="logout-button" type="button">
+                Logout
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-title">
+            InfraRisk
+        </div>
+
+        <nav>
+
+            <a href="dashboard.html" class="sidebar-link">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="assets.html" class="sidebar-link">
+                <span>▣</span>
+                Assets
+            </a>
+
+            <a href="repair-planning.html" class="sidebar-link active">
+                <span>⚒</span>
+                Repair Planning
+            </a>
+
+            <a href="reports.html" class="sidebar-link">
+                <span>▤</span>
+                Reports
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="dashboard-content">
+
+        <div class="page-heading">
+
+            <h1>Repair Planning</h1>
+
+            <p>
+                Prioritize infrastructure repairs using risk, impact and available budget.
+            </p>
+
+        </div>
+
+
+        <!-- BUDGET OVERVIEW -->
+
+        <section>
+
+            <h2 class="section-title">
+                Budget Overview
+            </h2>
+
+            <div class="maintenance-grid">
+
+                <div class="maintenance-card">
+                    <span>Available Budget</span>
+                    <strong>₹8L</strong>
+                    <small>Current allocation</small>
+                </div>
+
+                <div class="maintenance-card">
+                    <span>Estimated Repair Cost</span>
+                    <strong>₹6.5L</strong>
+                    <small>Priority repairs</small>
+                </div>
+
+                <div class="maintenance-card">
+                    <span>Budget Utilization</span>
+                    <strong>81%</strong>
+                    <small>After recommended repairs</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRIORITY RANKING -->
+
+        <section class="repair-section">
+
+            <h2 class="section-title">
+                Repair Priority Ranking
+            </h2>
+
+            <p class="section-description">
+                Assets are ranked according to risk, condition and potential impact.
+            </p>
+
+
+            <div class="repair-table">
+
+                <div class="repair-row repair-header">
+
+                    <span>Rank</span>
+                    <span>Asset</span>
+                    <span>Risk Score</span>
+                    <span>Repair Cost</span>
+                    <span>Risk Reduction</span>
+
+                </div>
+
+
+                <div class="repair-row">
+
+                    <span class="rank-number">1</span>
+
+                    <span>
+                        <strong>Road A</strong>
+                        <small>Road</small>
+                    </span>
+
+                    <span class="risk-high">
+                        92
+                    </span>
+
+                    <span>
+                        ₹2.5L
+                    </span>
+
+                    <span class="reduction">
+                        41%
+                    </span>
+
+                </div>
+
+
+                <div class="repair-row">
+
+                    <span class="rank-number">2</span>
+
+                    <span>
+                        <strong>Bridge C</strong>
+                        <small>Bridge</small>
+                    </span>
+
+                    <span class="risk-high">
+                        88
+                    </span>
+
+                    <span>
+                        ₹2.0L
+                    </span>
+
+                    <span class="reduction">
+                        28%
+                    </span>
+
+                </div>
+
+
+                <div class="repair-row">
+
+                    <span class="rank-number">3</span>
+
+                    <span>
+                        <strong>Drain B</strong>
+                        <small>Drainage</small>
+                    </span>
+
+                    <span class="risk-medium">
+                        72
+                    </span>
+
+                    <span>
+                        ₹1.2L
+                    </span>
+
+                    <span class="reduction">
+                        17%
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RECOMMENDATION -->
+
+        <section class="recommendation-section">
+
+            <div class="recommendation-heading">
+
+                <div>
+
+                    <h2>
+                        Recommended Action
+                    </h2>
+
+                    <p>
+                        Why Road A has been prioritized for immediate repair.
+                    </p>
+
+                </div>
+
+                <span class="priority-badge">
+                    PRIORITY 1
+                </span>
+
+            </div>
+
+
+            <div class="recommendation-content">
+
+                <div class="recommendation-asset">
+
+                    <span>ROAD A</span>
+
+                    <strong>Risk Score: 92/100</strong>
+
+                </div>
+
+
+                <div class="reason-list">
+
+                    <div class="reason-item">
+                        <span>●</span>
+                        <p>Poor asset condition</p>
+                    </div>
+
+                    <div class="reason-item">
+                        <span>●</span>
+                        <p>High accident history</p>
+                    </div>
+
+                    <div class="reason-item">
+                        <span>●</span>
+                        <p>High failure consequence</p>
+                    </div>
+
+                    <div class="reason-item">
+                        <span>●</span>
+                        <p>Critical nearby facilities increase impact</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="expected-result">
+
+                <div>
+
+                    <span>Expected Risk Reduction</span>
+
+                    <strong>41%</strong>
+
+                </div>
+
+                <div>
+
+                    <span>Estimated Repair Cost</span>
+
+                    <strong>₹2.5L</strong>
+
+                </div>
+
+                <div>
+
+                    <span>Priority</span>
+
+                    <strong>Immediate</strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DECISION SUPPORT -->
+
+        <section class="decision-section">
+
+            <h2 class="section-title">
+                Decision Support
+            </h2>
+
+            <p>
+                The system prioritizes assets by considering both the probability
+                of failure and the potential consequences of failure.
+            </p>
+
+            <div class="decision-note">
+
+                <strong>
+                    Why Road A before a lower-risk asset?
+                </strong>
+
+                <span>
+                    Road A combines poor condition, higher failure risk and greater
+                    potential public impact. Repairing it provides a higher expected
+                    reduction in infrastructure risk within the available budget.
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- BACK -->
+
+        <div class="back-dashboard">
+
+            <a href="dashboard.html">
+                ← Back to Dashboard
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- LOGOUT POPUP -->
+
+    <div class="logout-overlay">
+
+        <div class="logout-modal">
+
+            <button class="close-modal" type="button">
+                ×
+            </button>
+
+            <h2>
+                Are you sure?
+            </h2>
+
+            <p>
+                Are you sure you want to log out of InfraRisk?
+            </p>
+
+            <div class="modal-buttons">
+
+                <button class="cancel-button" type="button">
+                    No
+                </button>
+
+                <button class="confirm-logout" type="button">
+                    Yes, Logout
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- LOGOUT SCRIPT -->
+
+    <script>
+
+        const logoutButton = document.querySelector(".logout-button");
+        const logoutOverlay = document.querySelector(".logout-overlay");
+        const closeModal = document.querySelector(".close-modal");
+        const cancelButton = document.querySelector(".cancel-button");
+        const confirmLogout = document.querySelector(".confirm-logout");
+
+
+        logoutButton.addEventListener("click", function () {
+            logoutOverlay.classList.add("show");
+        });
+
+
+        closeModal.addEventListener("click", function () {
+            logoutOverlay.classList.remove("show");
+        });
+
+
+        cancelButton.addEventListener("click", function () {
+            logoutOverlay.classList.remove("show");
+        });
+
+
+        confirmLogout.addEventListener("click", function () {
+            window.location.href = "login.html";
+        });
+
+    </script>
+
+
+</body>
+</html>
+```
