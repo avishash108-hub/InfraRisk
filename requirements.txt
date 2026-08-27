@@ -1,2 +1,5 @@
 flask
+psycopg
+argon2-cffi
+os
 pandas
