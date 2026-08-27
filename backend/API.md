@@ -74,6 +74,7 @@ Success — 200
     ]
 }
 Risk Classification
+
 Risk Score	Status
 >= 85	Critical
 65–84.99	High
