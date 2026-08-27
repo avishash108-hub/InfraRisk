@@ -199,27 +199,36 @@ The application uses PostgreSQL for persistent infrastructure and user data.
 
 Authentication uses government-assigned IDs and role information. The backend establishes a session after successful authentication and uses the user's role to determine access to the appropriate dashboard.
 
-Security considerations include:
+### Security Considerations
 
-Password hashing using Argon2
-Session-based authentication
-Role-based access
-Generic authentication errors to avoid revealing whether an ID or password was incorrect
-Environment variables for sensitive configuration
-Key Features
-Government ID-based authentication
-Role-based access
-Municipal officer dashboard
-Field inspector dashboard
-Road health monitoring
-Bridge health monitoring
-Drainage health monitoring
-Asset-level risk assessment
-Risk classification
-High-risk and critical asset identification
-Infrastructure repair prioritization
-PostgreSQL-based infrastructure data management
-Project Structure
+- Password hashing using Argon2
+- Session-based authentication
+- Role-based access control
+- Generic authentication errors to avoid revealing whether the Government ID or password is incorrect
+- Environment variables for sensitive configuration
+
+---
+
+## Key Features
+
+- Government ID-based authentication
+- Role-based access
+- Municipal officer dashboard
+- Field inspector dashboard
+- Road health monitoring
+- Bridge health monitoring
+- Drainage health monitoring
+- Asset-level risk assessment
+- Risk classification
+- High-risk and critical asset identification
+- Infrastructure repair prioritization
+- PostgreSQL-based infrastructure data management
+
+---
+
+## Project Structure
+
+```text
 InfraRisk/
 │
 ├── data/
@@ -235,8 +244,7 @@ InfraRisk/
 ├── app.py
 ├── .gitignore
 └── README.md
-Current Project Status
-
+```
 Prototype / Hackathon Project
 
 The current version demonstrates the core architecture and workflow of InfraRisk, including:
@@ -265,29 +273,24 @@ Production deployment would require stronger infrastructure, authentication, aut
 
 These limitations are intended to be addressed as the system moves from prototype to production.
 
-Future Scope
+#Future Scope
 1. Government Data Integration
-
 Replace fabricated infrastructure data with verified data from government and municipal authorities.
+The system can be adapted to consume standardized government datasets and APIs when appropriate access is available. Weights of parameters can be altered once the
+actual data is available/accessible.
 
-The system can be adapted to consume standardized government datasets and APIs when appropriate access is available.
-
-2. GIS Integration
-
+3. GIS Integration
 Integrate geographic information systems to display infrastructure assets on interactive maps.
-
 This would allow officers to:
+-Analyze nearby critical facilities at a glance
+-Locate high-risk assets
+-Identify geographical risk clusters
+-View infrastructure by district or municipality
+-Analyze nearby critical facilities
 
-Locate high-risk assets
-Identify geographical risk clusters
-View infrastructure by district or municipality
-Analyze nearby critical facilities
 3. Machine Learning-Based Risk Prediction
-
 Historical inspection, maintenance, accident, and failure data can be used to train machine learning models.
-
 Future models could predict:
-
 Probability of infrastructure failure
 Expected deterioration
 Future maintenance requirements
@@ -296,58 +299,26 @@ Asset-specific risk
 ML predictions should be evaluated against historical data before being used for operational decisions.
 
 4. Evidence-Based Risk Weights
-
 The current prototype uses equal weights where reliable evidence for different factor importance was unavailable.
-
 With sufficient historical data, statistical analysis and domain expertise can be used to determine evidence-based weights rather than relying on manually selected values.
 
 5. Real-Time Infrastructure Monitoring
-
 Integration with sensors and IoT devices could provide continuously updated information such as:
-
 Structural condition
 Water leakage
 Pipeline pressure
 Road condition
 Environmental exposure
-6. Advanced Repair Prioritization
 
-Future versions can consider:
+6. Mobile App version
+Current version is a web application but future versions can include mobile app format for easier accessibility
 
-Risk score
-Repair cost
-Available budget
-Asset importance
-Population affected
-Nearby critical facilities
-Expected failure consequences
 
-This would allow the system to generate optimized repair plans under limited municipal budgets.
 
-7. Historical Analytics
-
-Historical infrastructure records can be used to track:
-
-Asset deterioration
-Previous repairs
-Recurring failures
-Maintenance effectiveness
-Changes in infrastructure risk over time
-8. Automated Alerts
-
-The system could notify relevant authorities when:
-
-An asset becomes critical
-A new inspection identifies severe damage
-Risk increases significantly
-A scheduled inspection is overdue
-Disclaimer
-
-InfraRisk is currently a prototype developed for demonstration and evaluation purposes.
-
-The fabricated/synthetic infrastructure data used in the prototype does not represent actual government infrastructure records.
-
-Before deployment in a real municipal environment, the system would require verified infrastructure data, validated engineering methodologies, domain-expert review, appropriate government authorization, security assessment, and operational testing.
+#NOTE:
+-InfraRisk is currently a prototype developed for demonstration and evaluation purposes.
+-The fabricated/synthetic infrastructure data used in the prototype does not represent actual government infrastructure records.
+-Before deployment in a real municipal environment, the system would require verified infrastructure data, validated engineering methodologies, domain-expert review, appropriate government authorization, security assessment, and operational testing.
 
 #Project Status
 Prototype / Hackathon Project
