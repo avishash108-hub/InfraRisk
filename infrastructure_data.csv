@@ -1,6 +1,0 @@
-asset_id,asset_type,condition,age,traffic,accidents,environmental_risk,repair_cost
-1,Road,35,15,8500,4,80,250000
-2,Road,70,8,5000,1,40,150000
-3,Bridge,45,20,12000,5,75,800000
-4,Road,85,5,3000,0,20,100000
-5,Bridge,25,30,15000,8,90,1200000
